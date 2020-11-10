@@ -1,2 +1,2 @@
-# Discord-Webhook-DDoS-Detection
+# Discord-Webhook-DDoS-Detection V2
 Coming Soon...
