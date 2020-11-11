@@ -17,7 +17,11 @@ A example of a attack stopped / mitigated
 
 ## Setup
 
+mkdir tcpdump
+
 iptables -A FORWARD -i tun0 -o eth0 -j ACCEPT
+
+sudo apt-get update && sudo apt-get upgrade
 
 sudo apt-get install tcpdump
 
