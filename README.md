@@ -1,5 +1,4 @@
 # Discord-Webhook-DDoS-Detection V2
-﻿# (D)Dos Alert Script
 
 This is the second version of the (D)dos Alert [Shell FIle](https://github.com/KimYoJong/DDoS-Detection-DiscordWebhook).
 
@@ -16,8 +15,6 @@ A example of a attack stopped / mitigated
 
 
 ## Installation
-
-This works on all Ubuntu and Debain versions
 
 iptables -A FORWARD -i tun0 -o eth0 -j ACCEPT
 
