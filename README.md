@@ -33,3 +33,7 @@ screen
 dos2unix attacklog.sh
 
 bash attacklog.sh
+
+## Contact
+
+For help, Contact me on [Twitter](https://twitter.com/FBI_arelosers). or my [Discord Server](https://discord.com/invite/4DSSbzS)
