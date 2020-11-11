@@ -44,4 +44,4 @@ bash attacklog.sh
 
 ## Contact
 
-For help, Contact me on [Twitter](https://twitter.com/FBI_arelosers) or join my [Discord](https://discord.com/invite/4DSSbzS)
+For help, Contact me on [Twitter](https://twitter.com/Dogeiana) or join my [Discord](https://discord.com/invite/4DSSbzS)
