@@ -31,7 +31,7 @@ while /bin/true; do
          "fields": [
       {
         "name": "***Server Provider***",
-        "value": "``Put your Hosting Provider Here``",
+        "value": "``Amazon Web Service``",
         "inline": false
       },
       {
@@ -67,7 +67,7 @@ while /bin/true; do
          "fields": [
       {
         "name": "***Server Provider***",
-        "value": "``Put your Hosting Provider here``",  // 
+        "value": "``Amazon Web Services``",
         "inline": false
       },
       {
