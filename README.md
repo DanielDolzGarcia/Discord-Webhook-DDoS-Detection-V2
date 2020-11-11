@@ -2,8 +2,7 @@
 
 This is the second version of the (D)dos Alert [Shell FIle](https://github.com/KimYoJong/DDoS-Detection-DiscordWebhook).
 
-Read 
-
+All in one
 
 # Screenshots
 ![](https://i.vexy.pro/wgBnbh.png)
@@ -13,6 +12,10 @@ A example of the Alert Script once a DDoS attack is registered.
 ![enter image description here](https://i.vexy.pro/EvWnb5.png)
 
 A example of a attack stopped / mitigated
+
+## Editing
+
+Edit [attacklog.sh](https://github.com/KimYoJong/Discord-Webhook-DDoS-Detection-V2/blob/main/attacklog.sh)
 
 
 ## Setup
