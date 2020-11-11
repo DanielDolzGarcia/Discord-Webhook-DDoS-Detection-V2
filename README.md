@@ -2,7 +2,7 @@
 
 This is the second version of the (D)dos Alert [Shell FIle](https://github.com/KimYoJong/DDoS-Detection-DiscordWebhook).
 
-All in one
+All in one file
 
 # Screenshots
 ![](https://i.vexy.pro/wgBnbh.png)
