@@ -2,6 +2,7 @@
 
 This is the second version of the (D)dos Alert [Shell FIle](https://github.com/KimYoJong/DDoS-Detection-DiscordWebhook).
 
+Read 
 
 
 # Screenshots
@@ -14,7 +15,7 @@ A example of the Alert Script once a DDoS attack is registered.
 A example of a attack stopped / mitigated
 
 
-## Installation
+## Setup
 
 iptables -A FORWARD -i tun0 -o eth0 -j ACCEPT
 
@@ -36,4 +37,4 @@ bash attacklog.sh
 
 ## Contact
 
-For help, Contact me on [Twitter](https://twitter.com/FBI_arelosers). or my [Discord Server](https://discord.com/invite/4DSSbzS)
+For help, Contact me on [Twitter](https://twitter.com/FBI_arelosers) or join my [Discord](https://discord.com/invite/4DSSbzS)
