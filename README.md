@@ -5,13 +5,9 @@ This is the second version of the (D)dos Alert [Shell FIle](https://github.com/K
 All in one file
 
 # Screenshots
-![](https://i.vexy.pro/wgBnbh.png)
 
-A example of the Alert Script once a DDoS attack is registered.
+i got none =(
 
-![enter image description here](https://i.vexy.pro/EvWnb5.png)
-
-A example of a attack stopped / mitigated
 
 ## Editing
 
@@ -24,23 +20,21 @@ mkdir tcpdump
 
 iptables -A FORWARD -i tun0 -o eth0 -j ACCEPT
 
-sudo apt-get update && sudo apt-get upgrade
+sudo apt-get update && sudo apt-get upgrade -y
 
-sudo apt-get install tcpdump
+sudo apt-get install tcpdump -y
 
-sudo apt-get install dos2unix
+sudo apt-get install dos2unix -y
 
-sudo apt-get install curl
+sudo apt-get install curl -y
 
-sudo apt-get install screen
+sudo apt-get install screen -y
 
-chmod 777 *
-
-screen
+chmod +x attacklog.sh
 
 dos2unix attacklog.sh
 
-bash attacklog.sh
+screeb bash attacklog.sh
 
 ## Contact
 
