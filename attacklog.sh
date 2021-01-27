@@ -1,3 +1,4 @@
+clear
 echo -e "\033[32;5mStarting Attack Logs \033[0m"
 interface=eth0
 dumpdir=/root/tcpdump
@@ -10,7 +11,9 @@ while /bin/true; do
  
   pkt=$(( $pkt_new - $pkt_old ))
   echo -ne "\r$pkt packets/s\033[0K"
- 
+  ## tcpdump -n -s0 -c 2000 -w $dumpdir/dump.`date +"%Y%m%d-%H%M%S"`.cap
+  ## echo "Dumping Packets"
+  ## sleep 1
   if [ $pkt -gt 2500 ]; then ## Attack alert will display after incoming traffic reach 2500 PPS
     echo "Attack Detected"
     curl -H "Content-Type: application/json" -X POST -d '{
@@ -23,7 +26,7 @@ while /bin/true; do
           "url": "https://cdn.discordapp.com/attachments/751555533009321997/762423318330081280/800px-Flag_of_the_United_Kingdom.svg.png"
         },
          "footer": {
-            "text": "Server under a DDoS attack",
+            "text": "City, Country",
             "icon_url": "https://cdn.discordapp.com/attachments/751555533009321997/762423318330081280/800px-Flag_of_the_United_Kingdom.svg.png"
           },
     
@@ -41,7 +44,7 @@ while /bin/true; do
       },
       {
         "name": "***Location***",
-        "value": ":flag_uk: ``United Kingdom``",
+        "value": ":flag_gb: ``United Kingdom``",
         "inline": false
       }
     ]
@@ -49,6 +52,7 @@ while /bin/true; do
     }' $url
     echo "Paused for."
     sleep 220  ## The "Attack no longer detected" alert will display in 220 seconds
+    ## echo "Packets Dunped"
     curl -H "Content-Type: application/json" -X POST -d '{
       "embeds": [{
       	"inline": false,
@@ -59,7 +63,7 @@ while /bin/true; do
           "url": "https://cdn.discordapp.com/attachments/751555533009321997/762423318330081280/800px-Flag_of_the_United_Kingdom.svg.png"
         },
          "footer": {
-            "text": "Attack no longer detected",
+            "text": "City, Country",
             "icon_url": "https://cdn.discordapp.com/attachments/751555533009321997/762423318330081280/800px-Flag_of_the_United_Kingdom.svg.png"
           },    
           
@@ -77,7 +81,7 @@ while /bin/true; do
       },
       {
         "name": "***Location***",
-        "value": ":flag_uk: ``United Kingdom``",
+        "value": ":flag_gb: ``United Kingdom``",
         "inline": false
       }
     ]
