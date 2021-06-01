@@ -38,4 +38,4 @@ screeb bash attacklog.sh
 
 ## Contact
 
-For help, Contact me on [Twitter](https://twitter.com/Dogeiana) or join my [Discord](https://discord.com/invite/4DSSbzS)
+For help, add me on disord DD is back#0091
