@@ -34,7 +34,7 @@ chmod +x attacklog.sh
 
 dos2unix attacklog.sh
 
-screeb bash attacklog.sh
+screen bash attacklog.sh
 
 ## Contact
 
