@@ -1,6 +1,6 @@
 A simple Bash script to detect DDoS attack and send a webhook to Discord
 
-Its what I use to detect when a DDoS attack is incoming in out Hosting hostete.com
+Its what I use to detect when a DDoS attack is incoming in our Hosting hostete.com
 
 First in all GitHub :)
 
