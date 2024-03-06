@@ -10,7 +10,4 @@ Remember to change network interface for it to work
 
 Made public as we are now using a much more advanceded version
 
-V3 is more advanced but private for now, if need help contact me on Discord
-
-ᴅᴅ#0116
-
+V3 is more advanced but private for now, if need help contact me on Discord -> ddolz 
